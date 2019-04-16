@@ -62,7 +62,7 @@ import java.util.function.Supplier;
     }
 
     @Override public boolean containsKey(final Object o) {
-        return this.loadedValues.containsKey(o)|| this.valueSuppliers.containsKey(o);
+        return this.loadedValues.containsKey(o) || this.valueSuppliers.containsKey(o);
     }
 
     @Override public boolean containsValue(final Object o) {
